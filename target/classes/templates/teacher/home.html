@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org" th:replace="base::Layout(~{::section})">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+	<section>
+		<h1>SECTION_OF_TEACHER</h1>
+		<h1>Name : [[${user.fullName}]]</h1>
+		<h1>Email : [[${user.email}]]</h1>
+		<h1>Qualification : [[${user.qualification}]]</h1>
+		<a href="/logout">Logout</a>
+	</section>
+</body>
+</html>
