@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+</head>
+<body>
+    <section>
+        <h1>SECTION_OF_ADMIN</h1>
+        <h1>Name: <span th:text="${user.fullName}"></span></h1>
+        <h1>Email: <span th:text="${user.email}"></span></h1>
+        <h1>Qualification: <span th:text="${user.qualification}"></span></h1>
+        <a href="/logout">Logout</a>
+    </section>
+</body>
+</html>
